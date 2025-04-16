@@ -1,0 +1,8 @@
+  <div className= "theme-text">
+            {theme === "light" ? (
+              <FiMoon size={20} color="white" />
+            ) : (
+              <FiSun size={20} color="white" />
+            )}
+            <span>{theme === "light" ? "Light" : "Dark"} mode</span>
+          </div>

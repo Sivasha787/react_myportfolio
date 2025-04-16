@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Light Theme */
+body.light {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --primary-color: #6b96d5;
+  --secondary-color: #a855f7;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --badge-fulltime: #34d399;
+  --badge-internship: #6ee7b7;
+  --border-color: #e5e7eb;
+  --muted-text: #6b7280;
+  --subtle-bg: #f4f4f4;
+}
+
+/* Dark Theme */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --primary-color: #6b96d5;
+  --secondary-color: #a855f7;
+  --card-bg: #1e1e1e;
+  --card-shadow: rgba(255, 255, 255, 0.05);
+  --badge-fulltime: #059669;
+  --badge-internship: #10b981;
+  --border-color: #2a2a2a;
+  --muted-text: #9ca3af;
+  --subtle-bg: #181818;
+}
+
+
+
